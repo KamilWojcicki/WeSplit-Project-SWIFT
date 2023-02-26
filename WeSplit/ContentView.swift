@@ -11,7 +11,7 @@ struct ContentView: View {
     @State private var checkAmount: Double = 0
     @State private var numberOfPeople = 2
     @State private var tipPercentage = 20
-    //ta zmienna pozwoli nam schować klawiaturę po wpisaniu odpowiedniej wartości.
+    //właściwość FocusState pozwoli nam schować klawiaturę po wpisaniu odpowiedniej wartości.
     @FocusState private var amoutIsFocused: Bool
     
     let tipPercentages = [10,15,20,25,0]
